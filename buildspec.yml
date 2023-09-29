@@ -4,5 +4,4 @@ phases:
   build:
     commands:
       - ./configure
-      - make install
-      - make test
+      - make -j4
